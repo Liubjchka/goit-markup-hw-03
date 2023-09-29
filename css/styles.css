@@ -36,7 +36,9 @@ background-color:#FFF;
 
 .container {
 width: 1158px;
-padding: 0 15px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .section {
@@ -187,7 +189,7 @@ background-color: #404BBF;
 }
 
 .visually-hidden {
-display: none;
+visibility:hidden;
 }
         
 .feature-list {
@@ -201,7 +203,6 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 width: calc((100% - 72px) / 4);
-margin-bottom: 8px;
 }
 
 .feature-subtitle {
@@ -211,6 +212,7 @@ font-style: normal;
 font-weight: 500;
 letter-spacing: 0.02em;
 line-height: 1.2;
+margin-bottom: 8px;
 }
 
 .feature-subtitle-text {
@@ -225,12 +227,10 @@ line-height: 1.5;
 background-color: #F4F4FD;
 width: 1158px;
 flex-shrink: 0;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
-.team-container{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 .team-subtitle {
 color: #2E2F42;
@@ -248,6 +248,7 @@ display: flex;
 align-items: center;
 flex-shrink: 0;
 padding-top: 72px;
+gap: 24px;
 }
 
 .team-item {
@@ -275,6 +276,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 8px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .team-image-subtitle {
@@ -284,8 +287,7 @@ font-size: 20px;
 font-weight: 500;
 letter-spacing: 0.02em;
 line-height: 1.2;
-padding-top: 32px;
-gap: 8px;
+margin-bottom: 8px;
 }
 
 .team-image-desc {
@@ -328,12 +330,6 @@ width: calc((100% - 48px)) / 6;
 gap: 48px 24px;
 }
 
-.content-container {
-padding: 32px 16px;
-border: 1px solid #e7e9fc;
-}
-
-
 .portfolio-item {
 border: #E7E9FC;
 background: #FFF;
@@ -346,6 +342,7 @@ gap: 32px;
 flex-shrink: 0;
 border-bottom:1px solid #E7E9FC;
 width: calc((100% - 48px) / 3);
+padding: 32px 16px;
 }
 
 .portfolio-image {
@@ -358,9 +355,9 @@ padding: 0px 16px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-margin-bottom: 8px
 align-self: stretch;
 padding: 0 16px;
+border-top: none;
 }
 
 .portfolio-text {
@@ -370,6 +367,7 @@ font-weight: 500;
 letter-spacing: 0.02em;
 line-height: 1.2;
 margin-top: 32px;
+margin-bottom: 8px;
 }
 
 .portfolio-desc {
