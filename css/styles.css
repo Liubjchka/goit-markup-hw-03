@@ -36,6 +36,7 @@ background-color:#FFF;
 
 .container {
 width: 1158px;
+padding: 0 15px;
 }
 
 .section {
@@ -64,6 +65,7 @@ display: inline-flex;
 align-items: flex-start;
 gap: 40px;
 margin-right: auto;
+align-items: center;
 }
 
 .header-logo {
@@ -75,6 +77,7 @@ font-size: 18px;
 font-weight: 700;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 
 .header-logo-color {
@@ -95,6 +98,7 @@ font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.02em;
 line-height: 1.5;
+padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -165,6 +169,9 @@ align-items: flex-start;
 gap: 10px;
 margin: 0 auto;
 display: block;
+min-width: 169px;
+height: 56px;
+border: none;
 }
 
 .main-page-btn:hover {
@@ -175,16 +182,17 @@ background-color: #404BBF;
 background-color: #404BBF;
 }
 
-.feature {}
+.feature {
+    padding: 120px 0;
+}
 
 .visually-hidden {
-    display: none;
+display: none;
 }
         
 .feature-list {
 display: flex;
 gap:24px;
-padding: 120px 156px;
 }
         
 .feature-item {
@@ -192,8 +200,8 @@ box-sizing: border-box;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-gap: 8px;
 width: calc((100% - 72px) / 4);
+margin-bottom: 8px;
 }
 
 .feature-subtitle {
@@ -292,11 +300,12 @@ padding-bottom: 32px;
 
 .portfolio {
 background-color: #FFF;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .portfolio-container {
 margin: 0 auto;
-padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -308,7 +317,7 @@ font-weight: 700;
 text-transform: capitalize;
 letter-spacing: 0.02em;
 line-height: 1.11;
-padding-top: 120px;
+margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -318,6 +327,12 @@ padding-top: 72px;
 width: calc((100% - 48px)) / 6;
 gap: 48px 24px;
 }
+
+.content-container {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+}
+
 
 .portfolio-item {
 border: #E7E9FC;
@@ -330,6 +345,7 @@ align-items: flex-start;
 gap: 32px;
 flex-shrink: 0;
 border-bottom:1px solid #E7E9FC;
+width: calc((100% - 48px) / 3);
 }
 
 .portfolio-image {
@@ -342,9 +358,9 @@ padding: 0px 16px;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
-gap: 8px;
+margin-bottom: 8px
 align-self: stretch;
-padding: o 16px;
+padding: 0 16px;
 }
 
 .portfolio-text {
@@ -367,12 +383,11 @@ line-height: 1.5;
 .footer {
 background: #2E2F42;
     flex-shrink: 0;
+padding: 100px 0;
 }
 
 .footer-container {
-padding-top: 101.5px;
 padding-left: 156px;
-padding-bottom: 100px;
 gap:17.5px;
 }
 
@@ -386,7 +401,8 @@ font-weight: 700;
 line-height: 1.17;
 text-transform: uppercase;
 letter-spacing: 0.03em;
-
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .footer-logo-color {
