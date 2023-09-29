@@ -189,7 +189,17 @@ background-color: #404BBF;
 }
 
 .visually-hidden {
-visibility:hidden;
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
         
 .feature-list {
@@ -241,13 +251,14 @@ font-weight: 700;
 text-transform: capitalize;
 letter-spacing: 0.02em;
 line-height: 1.11;
+margin-bottom: 72px;
 }
 
 .team-list {
 display: flex;
 align-items: center;
 flex-shrink: 0;
-padding-top: 72px;
+margin-bottom: 72px;
 gap: 24px;
 }
 
@@ -358,6 +369,8 @@ align-items: flex-start;
 align-self: stretch;
 padding: 0 16px;
 border-top: none;
+padding: 32px 16px;
+border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-text {
